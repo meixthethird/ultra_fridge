@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>取り出したもの</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<h1>🛒 カート</h1>
+
+<div id="cartItems" class="container"></div>
+
+<br>
+
+<button onclick="clearCart()">全部しまう</button>
+
+<br><br>
+
+<a href="index.html">
+<button>冷蔵庫に戻る</button>
+</a>
+
+</div>
+
+<script>
+
+function loadCart(){
+
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+const area = document.getElementById("cartItems");
+
+area.innerHTML="";
+
+cart.forEach(item => {
+
+const div=document.createElement("div");
+
+div.className="item";
+
+div.innerText=item;
+
+area.appendChild(div);
+
+});
+
+}
+
+function clearCart(){
+
+localStorage.removeItem("cart");
+
+loadCart();
+
+}
+
+loadCart();
+
+</script>
+
+</body>
+</html>
