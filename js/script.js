@@ -21,43 +21,43 @@ image:"images/images_ichugo.jpg"
 {
 name:"愛媛県産ブラッドオレンジ",
 setumei:"剝きかけて、間違えたと悟った",
-image:"images_oranges.jpg"
+image:"images/images_oranges.jpg"
 },
 
 {
 name:"なんとかって名前の青リンゴ",
 setumei:"大きくておいしそう",
-image:"images_greenapple.jpg"
+image:"images/images_greenapple.jpg"
 },
 
 {
 name:"濃厚そうなピーナッツバター",
 setumei:"ピーナッツオイルでできてるよ",
-image:"images_pbutter.jpg"
+image:"images/images_pbutter.jpg"
 },
 
 {
 name:"なにに乗せてもおいしいやつ",
 setumei:"ただしとってもクサくなる",
-image:"images_garic.jpg"
+image:"images/images_garic.jpg"
 },
 
 {
 name:"お気に入りのジャム",
 setumei:"クランベリーかな？",
-image:"images_jam.jpg"
+image:"images/images_jam.jpg"
 },
 
 {
 name:"かるかん",
 setumei:"鹿児島銘菓、やまいもが入ってるって",
-image:"images_karukan.jpg"
+image:"images/images_karukan.jpg"
 },
 
 {
 name:"期限ぎりぎりのがんも",
 setumei:"はやく食べなきゃ",
-image:"images_ganmo.jpg"
+image:"images/images_ganmo.jpg"
 }
 ];
 
