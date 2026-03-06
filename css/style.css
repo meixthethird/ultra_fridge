@@ -39,7 +39,7 @@ h1{
 }
 
 button{
-  margin-top:8px;
+  margin-top:16px;
   background:#ff4fa3;
   border:none;
   color:white;
@@ -53,11 +53,11 @@ button:hover{
   background:#ff2c8c;
 }
 
-#cartItems .item{
+cartItems .item{
   font-size:14px;
 }
 
-#fridgeLight{
+fridgeLight{
   position:fixed;
   top:0;
   left:0;
